@@ -3,6 +3,7 @@
 <p align="center">
   <a href="https://kamedjonekou.me"><img src="https://img.shields.io/badge/Portfolio-kamedjonekou.me-2DD4BF?style=for-the-badge&labelColor=0D1428&logo=googlechrome&logoColor=2DD4BF" alt="Portfolio"/></a>
   <a href="https://academy.ouragrove.io"><img src="https://img.shields.io/badge/OuraGrove-Academy-F5B942?style=for-the-badge&labelColor=0D1428&logo=bookstack&logoColor=F5B942" alt="OuraGrove Academy"/></a>
+  <a href="https://togodecouverte.tg"><img src="https://img.shields.io/badge/Azea-togodecouverte.tg-2DD4BF?style=for-the-badge&labelColor=0D1428&logo=wikipedia&logoColor=2DD4BF" alt="Azea, the Togolese Encyclopedia"/></a>
   <a href="mailto:kamedjon@wgu.edu"><img src="https://img.shields.io/badge/Email-kamedjon%40wgu.edu-AEE8DE?style=for-the-badge&labelColor=0D1428&logo=gmail&logoColor=AEE8DE" alt="Email"/></a>
 </p>
 
@@ -21,7 +22,7 @@ A B.A. in Education taught me what learners actually need and which data a learn
 | Project | What it is |
 |---|---|
 | 🎓 **[OuraGrove Academy](https://academy.ouragrove.io)** | Secure, offline-first EdTech platform for francophone Africa; my flagship build (code in private development) |
-| 📚 **Azea** | The Togo Encyclopedia: culture, history, and knowledge as open digital infrastructure (in private development) |
+| 📚 **[Azea](https://togodecouverte.tg)** | The Togolese Encyclopedia: bilingual, fully offline, with quizzes, maps, and native pronunciations (code in private development) |
 | 🔢 **Awale Maths** | Math practice built around Togo's official school curriculum (in private development) |
 | 🛡️ **[Cyber Portfolio](https://github.com/Ouraking/cyber-portfolio)** | My security work in one place: labs, audits, and architecture write-ups |
 | 🏛️ **[Zero Trust Architecture](https://github.com/Ouraking/zero-trust-architecture-phase1)** | Zero Trust security architecture, designed and built in phases |
