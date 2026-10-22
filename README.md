@@ -20,10 +20,11 @@ A B.A. in Education taught me what learners actually need and which data a learn
 
 | Project | What it is |
 |---|---|
-| 🎓 **[OuraGrove Academy](https://github.com/Ouraking/OuraGrove-Academy)** | Secure, offline-first EdTech platform for francophone Africa; my flagship build |
-| 📚 **[Azea](https://github.com/Ouraking/Azea)** | The Togo Encyclopedia: culture, history, and knowledge as open digital infrastructure |
-| 🔢 **[Awale Maths](https://github.com/Ouraking/awale-maths)** | Math practice built around Togo's official school curriculum |
+| 🎓 **[OuraGrove Academy](https://academy.ouragrove.io)** | Secure, offline-first EdTech platform for francophone Africa; my flagship build (code in private development) |
+| 📚 **Azea** | The Togo Encyclopedia: culture, history, and knowledge as open digital infrastructure (in private development) |
+| 🔢 **Awale Maths** | Math practice built around Togo's official school curriculum (in private development) |
 | 🛡️ **[Cyber Portfolio](https://github.com/Ouraking/cyber-portfolio)** | My security work in one place: labs, audits, and architecture write-ups |
+| 🏛️ **[Zero Trust Architecture](https://github.com/Ouraking/zero-trust-architecture-phase1)** | Zero Trust security architecture, designed and built in phases |
 
 ## 🛡️ Security side
 
