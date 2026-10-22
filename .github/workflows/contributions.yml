@@ -1,0 +1,54 @@
+name: Contributions
+
+# Rebuilds the contribution graphics shown in the profile README.
+# They are pushed to the "output" branch so main stays free of bot commits.
+on:
+  schedule:
+    - cron: "17 */6 * * *" # every 6 hours
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/**
+      - .github/workflows/contributions.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contributions
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Contributions card
+        run: node scripts/contributions-card.mjs "${{ github.repository_owner }}" dist/contributions.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?color_snake=#F5B942&color_dots=#1A2440,#0F4C4A,#178A80,#22B8A6,#2DD4BF
+            dist/snake-light.svg?color_snake=#E09A1F&color_dots=#EBEDF0,#AEE8DE,#5FD9C7,#2DB5A3,#178A80
+
+      - name: Publish to output branch
+        working-directory: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git init -q -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -q -m "Update contribution graphics"
+          git push -q -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output

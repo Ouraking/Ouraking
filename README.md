@@ -55,15 +55,17 @@ M.S. in Cybersecurity and Information Assurance (Western Governors University). 
   <img src="https://img.shields.io/badge/Claude%20API-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude API"/>
 </p>
 
-## 📊 GitHub stats
+## 📊 Contributions
+
+<img src="https://raw.githubusercontent.com/Ouraking/Ouraking/output/contributions.svg" alt="Contribution stats: this year, last 30 days, current and longest streak, all time, and the last 52 weeks (refreshed every 6 hours)" width="100%"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Ouraking/Ouraking/output/snake-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/Ouraking/Ouraking/output/snake-light.svg" alt="Animated contribution graph" width="100%"/>
+</picture>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Ouraking&show_icons=true&hide_border=true&bg_color=0D1428&title_color=2DD4BF&text_color=C9D4F0&icon_color=F5B942&ring_color=2DD4BF&border_radius=14" alt="GitHub stats" height="170"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ouraking&layout=compact&hide_border=true&bg_color=0D1428&title_color=2DD4BF&text_color=C9D4F0&border_radius=14" alt="Top languages" height="170"/>
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Ouraking&hide_border=true&background=0D1428&ring=2DD4BF&fire=F5B942&currStreakLabel=2DD4BF&currStreakNum=F2F6FF&sideNums=F2F6FF&sideLabels=8B97B8&dates=8B97B8&border_radius=14" alt="Contribution streak" height="170"/>
 </p>
 
 ## 🤝 Community
