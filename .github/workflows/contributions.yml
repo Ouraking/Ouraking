@@ -38,8 +38,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake-dark.svg?color_snake=#F5B942&color_dots=#1A2440,#0F4C4A,#178A80,#22B8A6,#2DD4BF
-            dist/snake-light.svg?color_snake=#E09A1F&color_dots=#EBEDF0,#AEE8DE,#5FD9C7,#2DB5A3,#178A80
+            dist/snake-dark.svg?palette=github-dark
+            dist/snake-light.svg?palette=github-light
 
       - name: Publish to output branch
         working-directory: dist
