@@ -1,0 +1,32 @@
+<svg width="1200" height="110" viewBox="0 0 1200 110" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Akpe, Merci, Thank you for stopping by">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1200" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A0F1E"/>
+      <stop offset="1" stop-color="#101A33"/>
+    </linearGradient>
+    <linearGradient id="fac" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#F5B942" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="fframe"><rect width="1200" height="110" rx="18"/></clipPath>
+    <style>
+      .fmain { font: 600 20px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #F2F6FF; letter-spacing: 3px; }
+      .fsub  { font: 500 13px ui-monospace, 'SFMono-Regular', Consolas, Menlo, monospace; fill: #8B97B8; letter-spacing: 2px; }
+      .dotA { animation: fpulse 2.6s ease-in-out infinite; }
+      .dotB { animation: fpulse 2.6s ease-in-out infinite 0.9s; }
+      .dotC { animation: fpulse 2.6s ease-in-out infinite 1.8s; }
+      @keyframes fpulse { 0%,100% { opacity: 0.25; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+  <g clip-path="url(#fframe)">
+    <rect width="1200" height="110" fill="url(#fbg)"/>
+    <rect x="100" y="22" width="1000" height="2" fill="url(#fac)"/>
+    <text class="fmain" x="600" y="62" text-anchor="middle">AKPE · MERCI · THANK YOU</text>
+    <text class="fsub" x="600" y="88" text-anchor="middle">secure by design · accessible by default</text>
+    <circle class="dotA" cx="540" cy="23" r="3.5" fill="#2DD4BF"/>
+    <circle class="dotB" cx="600" cy="23" r="3.5" fill="#AEE8DE"/>
+    <circle class="dotC" cx="660" cy="23" r="3.5" fill="#F5B942"/>
+    <rect x="0.5" y="0.5" width="1199" height="109" rx="18" stroke="#24335C" fill="none"/>
+  </g>
+</svg>

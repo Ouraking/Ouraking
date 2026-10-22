@@ -1,0 +1,132 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Koffi Jean-Marie Amedjonekou, security-first engineer and EdTech builder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A0F1E"/>
+      <stop offset="0.55" stop-color="#0D1428"/>
+      <stop offset="1" stop-color="#101A33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#F5B942"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#2DD4BF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowT" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2DD4BF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowG" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F5B942" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#F5B942" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="340" rx="18"/></clipPath>
+    <style>
+      .name { font: 700 44px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #F2F6FF; letter-spacing: 0.5px; }
+      .role { font: 500 22px 'Segoe UI', Ubuntu, Helvetica, Arial, sans-serif; fill: #AEE8DE; opacity: 0; }
+      .meta { font: 500 15px ui-monospace, 'SFMono-Regular', Consolas, Menlo, monospace; fill: #8B97B8; letter-spacing: 2px; }
+      .tag  { font: 600 13px ui-monospace, 'SFMono-Regular', Consolas, Menlo, monospace; letter-spacing: 1.5px; }
+      .cursor { animation: blink 1.1s steps(1) infinite; }
+      .r1 { animation: cycle 12s ease-in-out infinite; }
+      .r2 { animation: cycle 12s ease-in-out infinite 4s; }
+      .r3 { animation: cycle 12s ease-in-out infinite 8s; }
+      .pulse { animation: pulse 3.2s ease-in-out infinite; transform-origin: 985px 170px; }
+      .orbitA { animation: spin 22s linear infinite; transform-origin: 985px 170px; }
+      .orbitB { animation: spinrev 34s linear infinite; transform-origin: 985px 170px; }
+      .scan { animation: scan 7s ease-in-out infinite; }
+      .float1 { animation: drift 9s ease-in-out infinite; }
+      .float2 { animation: drift 11s ease-in-out infinite 2.5s; }
+      @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes cycle { 0% { opacity: 0; transform: translateY(8px);} 4% { opacity: 1; transform: translateY(0);} 30% { opacity: 1; transform: translateY(0);} 36% { opacity: 0; transform: translateY(-8px);} 100% { opacity: 0; } }
+      @keyframes pulse { 0%,100% { opacity: 0.85; transform: scale(1); } 50% { opacity: 1; transform: scale(1.03); } }
+      @keyframes spin { from { transform: rotate(0deg);} to { transform: rotate(360deg);} }
+      @keyframes spinrev { from { transform: rotate(360deg);} to { transform: rotate(0deg);} }
+      @keyframes scan { 0% { transform: translateX(-400px); opacity: 0;} 15% { opacity: 1;} 85% { opacity: 1;} 100% { transform: translateX(1400px); opacity: 0;} }
+      @keyframes drift { 0%,100% { transform: translateY(0);} 50% { transform: translateY(-10px);} }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+
+    <!-- faint grid -->
+    <g stroke="#223055" stroke-opacity="0.35" stroke-width="1">
+      <path d="M0 85 H1200 M0 170 H1200 M0 255 H1200"/>
+      <path d="M150 0 V340 M300 0 V340 M450 0 V340 M600 0 V340 M750 0 V340 M900 0 V340 M1050 0 V340"/>
+    </g>
+
+    <!-- ambient glows -->
+    <circle cx="985" cy="170" r="210" fill="url(#glowT)"/>
+    <circle cx="180" cy="40" r="180" fill="url(#glowG)"/>
+
+    <!-- sweeping scan line -->
+    <rect class="scan" x="0" y="0" width="400" height="340" fill="url(#sweep)"/>
+
+    <!-- shield motif -->
+    <g class="pulse">
+      <path d="M985 92 L1052 118 V178 C1052 224 1023 256 985 272 C947 256 918 224 918 178 V118 Z"
+            fill="#0D1428" stroke="url(#accent)" stroke-width="2.5"/>
+      <path d="M985 104 L1040 126 V177 C1040 216 1016 243 985 257 C954 243 930 216 930 177 V126 Z"
+            fill="none" stroke="#2DD4BF" stroke-opacity="0.25" stroke-width="1"/>
+      <!-- circuit inside shield -->
+      <g stroke="#2DD4BF" stroke-width="1.6" fill="none">
+        <path d="M985 140 V196 M985 164 H1012 M985 180 H958 M1012 164 V150 M958 180 V194"/>
+      </g>
+      <g fill="#F5B942">
+        <circle cx="985" cy="140" r="3.4"/>
+        <circle cx="1012" cy="150" r="3.4"/>
+        <circle cx="958" cy="194" r="3.4"/>
+        <circle cx="985" cy="196" r="3.4"/>
+      </g>
+    </g>
+
+    <!-- orbit rings: three disciplines around one problem -->
+    <g class="orbitA">
+      <circle cx="985" cy="170" r="118" stroke="#2DD4BF" stroke-opacity="0.3" stroke-width="1" fill="none" stroke-dasharray="3 6"/>
+      <circle cx="985" cy="52" r="5" fill="#2DD4BF"/>
+    </g>
+    <g class="orbitB">
+      <circle cx="985" cy="170" r="146" stroke="#F5B942" stroke-opacity="0.22" stroke-width="1" fill="none" stroke-dasharray="2 8"/>
+      <circle cx="1131" cy="170" r="4" fill="#F5B942"/>
+      <circle cx="839" cy="170" r="3" fill="#AEE8DE"/>
+    </g>
+
+    <!-- floating code glyphs -->
+    <g class="float1" font-family="ui-monospace, Consolas, monospace" font-size="14" fill="#2DD4BF" fill-opacity="0.45">
+      <text x="770" y="70">{"offline_first": true}</text>
+    </g>
+    <g class="float2" font-family="ui-monospace, Consolas, monospace" font-size="13" fill="#F5B942" fill-opacity="0.4">
+      <text x="800" y="305">sha256 · verified</text>
+    </g>
+
+    <!-- text block -->
+    <text class="meta" x="64" y="88">BOSTON, MA · KAMEDJONEKOU.ME</text>
+    <text class="name" x="62" y="146">Koffi Jean-Marie Amedjonekou<tspan class="cursor" fill="#2DD4BF">_</tspan></text>
+    <rect x="64" y="166" width="150" height="4" rx="2" fill="url(#accent)"/>
+
+    <!-- rotating roles -->
+    <g>
+      <text class="role r1" x="64" y="212">Security-first engineer: penetration testing to production code</text>
+      <text class="role r2" x="64" y="212">Building secure, offline-first EdTech for francophone Africa</text>
+      <text class="role r3" x="64" y="212">Founder · Togo Cybersecurity Research Collective</text>
+    </g>
+
+    <!-- bottom tags -->
+    <g class="tag">
+      <rect x="64" y="246" width="128" height="30" rx="15" fill="none" stroke="#2DD4BF" stroke-opacity="0.55"/>
+      <text x="128" y="265" text-anchor="middle" fill="#2DD4BF">SECURITY</text>
+      <rect x="204" y="246" width="128" height="30" rx="15" fill="none" stroke="#F5B942" stroke-opacity="0.55"/>
+      <text x="268" y="265" text-anchor="middle" fill="#F5B942">EDUCATION</text>
+      <rect x="344" y="246" width="128" height="30" rx="15" fill="none" stroke="#AEE8DE" stroke-opacity="0.55"/>
+      <text x="408" y="265" text-anchor="middle" fill="#AEE8DE">ENGINEERING</text>
+    </g>
+
+    <!-- frame stroke -->
+    <rect x="0.5" y="0.5" width="1199" height="339" rx="18" stroke="#24335C" fill="none"/>
+  </g>
+</svg>
